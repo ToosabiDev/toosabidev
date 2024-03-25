@@ -390,7 +390,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #FF0077;
+    background: #E8AA42;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -726,7 +726,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-    color: #cc005f;
+    color: #E8AA42;
     border-bottom: 1px solid #E8AA42;
 }
 
@@ -940,7 +940,7 @@ input::-moz-focus-inner {
 
 .ss-error {
     background-color: #ffd1d2;
-    color: #e65153;
+    color: #E8AA42;
 }
 
 .ss-success {
@@ -1366,10 +1366,10 @@ header .row {
 header .top-bar {
     display: block;
     background: #000000;
-    min-width: 220px;
-    min-height: 66px;
+    min-width: 160px;
+    min-height: 46px;
     position: absolute;
-    left: 90px;
+    right: 90px;
     top: 0;
 }
 
@@ -1407,7 +1407,7 @@ header .logo a {
     margin-left: 20px;
     margin-top: 13px;
     display: block;
-    position: relative;
+    position:static;
 }
 
 .menu-toggle span {
@@ -1477,7 +1477,7 @@ header .logo a {
 
 .menu-toggle.is-clicked span::before,
 .menu-toggle.is-clicked span::after {
-    background-color: #ff0077;
+    background-color: #E8AA42;
     -moz-transition-delay: 0s, 0.2s;
     -o-transition-delay: 0s, 0.2s;
     -webkit-transition-delay: 0s, 0.2s;
@@ -1687,7 +1687,7 @@ header .logo a {
 
 .intro-content .button:hover,
 .intro-content .button:focus {
-    border-color: #cc005f;
+    border-color: #E8AA42;
 }
 
 .intro-content .button::after {
@@ -1725,7 +1725,7 @@ header .logo a {
 
 .intro-social li a:hover,
 .intro-social li a:focus {
-    color: #cc005f;
+    color: #E8AA42;;
 }
 
 /**
@@ -2733,7 +2733,7 @@ header .logo a {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #FF0077;
+    background: #E8AA42;
 }
 
 #contact form .form-field label::after {
@@ -2743,7 +2743,7 @@ header .logo a {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #FF0077;
+    border-right: 5px solid #E8AA42;
     content: "";
 }
 
@@ -2768,7 +2768,7 @@ header .logo a {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-    border-color: #FF0077;
+    border-color: #E8AA42;
     color: #FFFFFF;
 }
 
@@ -2815,7 +2815,7 @@ header .logo a {
 }
 
 #message-success {
-    color: #FF0077;
+    color: #E8AA42;
 }
 
 #message-warning i,
